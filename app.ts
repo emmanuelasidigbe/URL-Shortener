@@ -3,7 +3,7 @@ import path from "path";
 import urlRroute from "./routes/url_route";
 
 const app: Application = express();
-const PORT = 3000;
+const PORT = 8080;
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.static(path.join(__dirname, "public")));
